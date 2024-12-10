@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeba73;
+    margin: 0;
+    
+}
+header{
+    background-color: rgb(245, 5, 5);
+    color: rgb(249, 249, 249);
+    text-align: center;
+    padding: 1em;
+
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(3, 1, 1, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #4000ff;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #f90606;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #6545a0;
+}
+table{
+
+    margin-left: 30%;
+}
+img{
+    margin-left: 35%;
+    width: 30rem;
+
+}
+dl{
+    color: blue;
+    }
+    dl dd{
+        color: brown;
+        display: grid;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    
+    table, th, td{
+        border: 3px solid red;
+        
+    }
+    
+    .center{
+     margin-left: 45%;
+     color: green;
+    
+    }
+    footer{
+        background-color: rgb(255, 0, 0);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 1em;
+    }
